@@ -1,0 +1,36 @@
+	body,html,div{
+		margin:0;
+		padding: 0;
+
+		
+	}
+	.box{
+		 margin: auto; 
+            width: 400px; 
+            height: 200px; 
+            background: #ccc; 
+            position: absolute;
+            top: 0; 
+            left: 0;
+            bottom: 0;
+            right: 0;
+            overflow: hidden;
+	}
+	.circle1{
+		border-radius: 50%;
+		background: #fc0;
+		width: 100px;
+		height: 100px;
+		left: -50px;
+		top:-50px;
+		position: absolute;
+	}
+	.circle2{
+		border-radius: 50%;
+		background: #fc0;
+		width: 100px;
+		height: 100px;
+		bottom: -50px;
+		right:-50px;
+	    position: absolute;
+	}
